@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include "cuda_runtime.h"
+#include "device_launch_parameters.h"
+#include <malloc.h>
+
+namespace zjx{
+    int add_ceshi(int m,int n);
+}

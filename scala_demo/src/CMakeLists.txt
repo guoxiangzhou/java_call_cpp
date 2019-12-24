@@ -12,7 +12,7 @@ INCLUDE_DIRECTORIES(
 _code/header
 ../
 )
-add_subdirectory(_code _interface)
+add_subdirectory(_code)
 AUX_SOURCE_DIRECTORY(. DIR_INTERFACE)
 SET(TEST_HELLO
 ${DIR_INTERFACE}
